@@ -1,0 +1,168 @@
+.navbar-brand img{
+    max-height: 30px;
+    margin-right: 10px;
+    border-radius: 15%;
+}
+.navbar-brand{
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #fff;
+    /* break-point : 2000px; */
+
+}
+.navbar-nav{
+    margin-right: 4rem;
+}
+.nav-item{
+    padding:0.7em;
+}
+#photo img{
+
+    max-height: 470px;
+    border-radius: 5%;
+}
+.debut{
+    min-height: calc(100vh - 50px);
+    background-image: url(../img/b1.jpg);
+    /* background-color: rgb(143, 198, 223); */
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.debut .row{
+    min-height: calc(100vh - 50px); 
+    align-items: center;
+    color: white;
+    padding-top: 3rem;
+   
+}
+
+
+#salut{
+    margin-left: 3.5em;
+}
+#Contact{
+    min-height: calc(100vh - 50px);
+    background-image: url(../img/papa.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+.f1{
+    background-color: rgba(255,255,255,.8);
+    border-radius: 4%;
+
+}
+#Blog{
+    background-color: rgb(245, 233, 233);
+    min-height: calc(100vh - 30px);
+
+  }
+#Blog .row{
+    min-height: calc(100vh - 50px);
+    /* align-items: center; */
+    color: rgb(104, 97, 97);
+
+
+ }
+#Contact .forme{
+    align-items: center;
+    min-height: calc(100vh - 50px);
+    padding: 2rem 1rem;
+}
+.say{
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    padding: 2rem 2rem;
+    border-radius: 4%;
+    font-family: Lucida Calligraphy;
+    font-size: 1.2em;
+    margin-top: 2rem;
+    margin-right: 3rem;
+}
+footer{
+    background-color: rgba(0,0,0,0.8);
+    color: #999;
+    padding-top: 2rem;
+    padding-bottom:2rem;
+    text-align: center;
+
+}
+footer a{
+    color: #999;
+
+}
+.adresse{
+    text-align: center;
+}
+#Contact h4{
+    color: rgb(104, 97, 97);
+}
+p{
+    font-size: 14pt;
+    font-family: sans-serif;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 1.5em;
+    
+}
+form{
+    padding-bottom: 1.5rem;
+}
+#passion{
+    margin-top: 3rem;
+    background-color: rgba(214, 199, 199, 0.7);
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    border-radius: 5%;
+}
+#preference{
+    
+    margin-top: 3.5rem;
+    background-color: rgba(10, 10, 10, 0.8);
+    margin-left: 2.5rem;
+    padding-top: 2rem;
+    margin-right: 2.5rem;
+    border-radius: 5%;
+}
+#preference img{
+    width: 300px;
+    height: 200px;
+}
+.social-icon {
+    margin: 20px 10px;
+  }
+  #ambition img{
+    width: 300px;
+    height: 200px;
+}
+#passion img{
+    width: 250px;
+    height: 250px;
+}
+#ambition{
+    margin-top: 3rem;
+    background-color: rgba(214, 199, 199, 0.7);
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    border-radius: 5%;
+}
+.feature-title{
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+
+
+
+
+
