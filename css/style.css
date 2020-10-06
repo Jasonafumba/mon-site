@@ -19,9 +19,9 @@
 }
 #photo img{
 
-    height: 370px;
+    height: 350px;
     border-radius: 5%;
-    width: 400ps;
+    
 }
 .debut{
     min-height: calc(100vh - 50px);
