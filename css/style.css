@@ -58,7 +58,7 @@
 }
 #Blog{
     
-    background-color: whitesmoke;
+    background-color: white;
     min-height: calc(100vh - 30px);
 }
 #Blog #milieu{
@@ -114,6 +114,7 @@ form{
 }
 #milieu{
     margin-left: 2rem;
+    
 }
 #passion{
     margin-bottom: 5rem;
