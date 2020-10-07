@@ -39,9 +39,7 @@
 }
 
 
-#salut{
-    margin-left: 3em;
-}
+
 #Contact{
     min-height: calc(100vh - 50px);
     background-image: url(../img/papa.jpg);
@@ -63,8 +61,9 @@
 }
 #Blog #milieu{
     min-height: calc(100vh - 50px);
-    color: rgb(104, 97, 97);
+    color: rgb(158, 153, 153);
     text-align: center;
+    
 }
 #Contact .forme{
     align-items: center;
@@ -107,6 +106,7 @@ p{
 h1{
     font-family: sans-serif;
     font-size: 1.5em;
+  text-align: center;
     
 }
 form{
@@ -121,8 +121,7 @@ form{
     margin-top: 6rem;
     background-color: rgba(214, 199, 199, 0.7);
     padding-top: 2rem;
-    /* margin-left: 2.5rem; */
-    /* margin-right: 2.5rem; */
+   
     border-radius: 2%;
     
 }
@@ -130,9 +129,9 @@ form{
     
     margin-top: 6rem;
     background-color: rgba(22, 22, 22, 0.8);
-    /* margin-left: 2.5rem; */
+    
     padding-top: 2rem;
-    /* margin-right: 2.5rem; */
+    
     border-radius: 2%;
     margin-bottom: 5rem; 
     
@@ -156,8 +155,6 @@ form{
     margin-top: 6rem;
     background-color: rgba(214, 199, 199, 0.7);
     padding-top: 2rem;
-    /* margin-left: 2.5rem;  */
-    /* margin-right: 2.5rem; */
     border-radius: 2%;
     margin-bottom: 5rem;
 
@@ -168,9 +165,34 @@ form{
     padding: 0.2rem;
     
 }
-
-
-
-
-
-
+@media (max-width: 800px) {
+    #milieu{ 
+       margin:auto;
+    }
+    #forme{
+        width: 150px;
+    }
+}
+/* @media (max-width: 500px) {
+    #milieu{ 
+        /* font-size: 12px; */
+        /* margin:auto;
+    }
+    #milieu{
+        width: 170px;
+    }
+}  */
+/* @media (max-width : 1200px) {
+    #milieu{
+         
+         
+    }
+}  */
+/* @media (max-width: 1800px) {
+    #menu {
+      -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+    }
+     } */
